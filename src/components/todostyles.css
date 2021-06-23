@@ -1,0 +1,29 @@
+.flexContainer {
+  display: flex;
+  float: center;
+
+  margin-top: 10px;
+}
+.deleteTodo {
+  margin-left: 10px;
+}
+
+.tmaticui {
+  margin-left: 100px;
+  margin-right: 50px;
+  width: 50%;
+  height: auto;
+  padding: 40px 35px 35px 35px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #c0ced1, -13px -13px 20px #ffffff;
+}
+@media screen and (max-width: 605px) {
+  .tmaticui {
+    float: none;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+}
